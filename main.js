@@ -7,9 +7,9 @@ let botones = document.getElementsByClassName('btn-header');
 let cerrado = true;
 
 function menus(){
-    let Desplazamiento_Actual = window.pageYOffset;
+    let Desplazamiento__Actual = window.pageYOffset;
 
-    if(Desplazamiento_Actual <= 300){
+    if(Desplazamiento__Actual <= 300){
         nav.classList.remove('nav2');
         nav.className = ('nav1');
         nav.style.transition = '1s';
