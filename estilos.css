@@ -230,9 +230,9 @@ nav{
 }
 
 .nav1{
-  background: transparent;
+  background: #fff;
   height: 80px;
-  color: #fff;
+  color: rgb(41, 25, 25);
 }
 
 .nav2{
